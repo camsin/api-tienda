@@ -25,7 +25,8 @@ var server = http.createServer(app);
 
 /* Database connection */
 
-mongoose.connect("mongodb://localhost/api_tienda",{
+
+mongoose.connect("mongodb://camendez:123qwe@ds245357.mlab.com:45357/api_tienda",{
 });
 
 const db = mongoose.connection;
